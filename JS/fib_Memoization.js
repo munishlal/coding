@@ -1,4 +1,4 @@
-
+//Memoization + closures
 function fibMemoization(n) {
     let cache = {};
         cache[0] = 0;
