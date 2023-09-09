@@ -1,0 +1,14 @@
+const arr1= [100,2,300];
+const arr2 = [1,200,3];
+const n = 100;
+
+function mrg_arr(arr1,arr2)  {
+    if (!Array.isArray(arr1) || !Array.isArray(arr2)) {
+        return console.log('...oops need arrays');
+    }
+
+return (console.log([...arr1, ...arr2]));
+}
+
+
+mrg_arr(arr1,arr2);
