@@ -1,5 +1,7 @@
 //Memoization + closures
-function fibMemoization(n) {
+//const fastfib = fibMemoization();
+// fastfib(5);
+function fibMemoization() {
     let cache = {};
         cache[0] = 0;
         cache[1] = 1;
